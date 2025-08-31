@@ -5,7 +5,7 @@ import { ScissorsIcon, ColorPaletteIcon, HairDryerIcon } from './IconComponents'
 
 const services = [
   { name: 'Women\'s Haircut & Style', description: 'Customized cut and professional styling to fit your look.', price: '€25', icon: <ScissorsIcon className="w-7 h-7 text-brand-gold"/> },
-  { name: 'Men\'s Haircut', description: 'Classic and modern cuts, finished with a sharp style.', price: '€15', icon: <ScissorsIcon className="w-7 h-7 text-brand-gold"/> },
+  { name: 'Blowout & Styling', description: 'Smooth, voluminous blowout for any occasion.', price: '€20+', icon: <ScissorsIcon className="w-7 h-7 text-brand-gold"/> },
   { name: 'Full Color', description: 'Rich, vibrant, single-process color from root to tip.', price: '€50+', icon: <ColorPaletteIcon className="w-7 h-7 text-brand-gold"/> },
   { name: 'Balayage / Ombré', description: 'Hand-painted highlights for a natural, sun-kissed look.', price: '€90+', icon: <ColorPaletteIcon className="w-7 h-7 text-brand-gold"/> },
   { name: 'Keratin Treatment', description: 'Smooth, frizz-free hair with a long-lasting keratin formula.', price: '€120+', icon: <HairDryerIcon className="w-7 h-7 text-brand-gold"/> },
