@@ -1,0 +1,5 @@
+body {
+  background-color: #2C2C2C; /* Matches brand-dark */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

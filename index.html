@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anderr Atelie Hair | Prishtina</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              'serif': ['Playfair Display', 'serif'],
+              'sans': ['Montserrat', 'sans-serif'],
+            },
+            colors: {
+              'brand-gold': '#D4B996',
+              'brand-dark': '#2C2C2C',
+              'brand-light': '#FDFBF8',
+              'brand-gray': '#3D3D3D',
+              'brand-bg-light': '#F5EBE0',
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^11.3.11",
+    "framer-motion/": "https://aistudiocdn.com/framer-motion@^11.3.11/"
+  }
+}
+</script>
+<!-- Add Babel Standalone for in-browser JSX/TS transpilation -->
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <!-- Change script type to text/babel to be processed by Babel -->
+    <script data-type="module" type="text/babel" src="index.tsx"></script>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
